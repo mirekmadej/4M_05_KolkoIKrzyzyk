@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_4M_05_KolkoIKrzyzyk.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                
+                <ImageButton
+                   Source="pusty.png"
+                   Clicked="btn00Clicked"
+                   x:Name="btn00"
+                   WidthRequest="100"
+                   HeightRequest="100" 
+                   Grid.Column="0"
+                   Grid.Row="0"
+               />
+                <ImageButton
+                   Source="pusty.png"
+                   Clicked="btn01Clicked"
+                   x:Name="btn01"
+                   WidthRequest="100"
+                   HeightRequest="100" 
+                   Grid.Column="1"
+                   Grid.Row="0"
+               />
+                <ImageButton
+                   Source="pusty.png"
+                   Clicked="btn02Clicked"
+                   x:Name="btn02"
+                   WidthRequest="100"
+                   HeightRequest="100" 
+                   Grid.Column="2"
+                   Grid.Row="0"
+               />
+
+                <ImageButton
+                   Source="pusty.png"
+                   Clicked="btn10Clicked"
+                   x:Name="btn10"
+                   WidthRequest="100"
+                   HeightRequest="100" 
+                   Grid.Column="0"
+                   Grid.Row="1"
+               />
+                <ImageButton
+                   Source="pusty.png"
+                   Clicked="btn11Clicked"
+                   x:Name="btn11"
+                   WidthRequest="100"
+                   HeightRequest="100" 
+                   Grid.Column="1"
+                   Grid.Row="1"
+               />
+                <ImageButton
+                   Source="pusty.png"
+                   Clicked="btn12Clicked"
+                   x:Name="btn12"
+                   WidthRequest="100"
+                   HeightRequest="100" 
+                   Grid.Column="2"
+                   Grid.Row="1"
+               />
+
+                <ImageButton
+                   Source="pusty.png"
+                   Clicked="btn20Clicked"
+                   x:Name="btn20"
+                   WidthRequest="100"
+                   HeightRequest="100" 
+                   Grid.Column="0"
+                   Grid.Row="2"
+               />
+                <ImageButton
+                   Source="pusty.png"
+                   Clicked="btn21Clicked"
+                   x:Name="btn21"
+                   WidthRequest="100"
+                   HeightRequest="100" 
+                   Grid.Column="1"
+                   Grid.Row="2"
+               />
+                <ImageButton
+                   Source="pusty.png"
+                   Clicked="btn22Clicked"
+                   x:Name="btn22"
+                   WidthRequest="100"
+                   HeightRequest="100" 
+                   Grid.Column="2"
+                   Grid.Row="2"
+               />
+
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
